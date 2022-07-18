@@ -1,0 +1,2 @@
+/*afficher l'offre associé au voiture qui porte le numero 6761 TBB*/
+select label_offre from offre inner join voiture on offre.label_offre = voiture.immatriculation where voiture.immatriculation = '6761 TBB';
