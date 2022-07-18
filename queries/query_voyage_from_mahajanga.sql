@@ -1,3 +1,6 @@
+/*
+This select shows the list of the travel from Mahajanga
+*/
 select * 
 from voyage 
 where 
@@ -6,4 +9,4 @@ where
 				where id_ville_depart = (select id_ville 
 										from ville 
 										where nom_ville = 'Mahajanga')
-										);
+				);

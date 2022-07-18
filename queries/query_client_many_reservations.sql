@@ -1,3 +1,7 @@
+/*
+This select shows the list of the clients who did
+reservation more than 19 times
+*/
 select 
 		client.id_client, nom, prenom, telephone, cin 
 from client

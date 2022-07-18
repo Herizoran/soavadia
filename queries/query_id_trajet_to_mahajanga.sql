@@ -1,3 +1,6 @@
+/*
+This select get the id_trajet of the travel to Mahajanga
+*/
 select * 
 from trajet 
 where 

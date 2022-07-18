@@ -1,3 +1,6 @@
+/*
+This select shows the list of the travel to Mahajanga
+*/
 select * 
 from voyage 
 where id_trajet=(select id_trajet 
